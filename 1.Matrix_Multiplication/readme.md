@@ -1,5 +1,3 @@
-<h1 align="left">Parallel Programming – Thread Performance Comparison</h1>
-
 <h2>Project Description</h2>
 <p>
   This project demonstrates the performance difference between using 
@@ -13,20 +11,12 @@
   <li>Comparison using different parallel programming libraries</li>
 </ul>
 
-<h2>Technologies Used</h2>
-<ul>
-  <li>pthread</li>
-  <li>OpenMP (OMP)</li>
-  <li>MPI (only if additional machines are available for clustering)</li>
-  <li>CUDA</li>
-</ul>
-
 <h2>How to Compile</h2>
 <pre>
 gcc -o main.out Matrix_Multiplication.c
 </pre>
 
-<h2>⚙️ Setting the Number of Threads</h2>
+<h2>Setting the Number of Threads</h2>
 
 <h3>Windows (PowerShell)</h3>
 <pre>
